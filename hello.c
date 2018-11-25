@@ -93,5 +93,105 @@ switch (c)
       break;
 
 }
-
 // variable to look at and a variable to make decisions off of.
+// give the compiler a hint of what's to come.
+
+// a prototype, like a movie trailer for a function.
+
+int square(int n);
+
+int main(void)
+{
+  int x = get_int("x: ");
+  printf("%i\n", square(x));
+  // x * x would be square(x).
+}
+// takes square from below.
+int square(int n)
+{
+  return n * n;
+}
+// squaring function below
+
+// one value, anything, int n.
+// executes one line of code and returns it.
+
+// RAM stores 0's and 1's in memory. fixed amount of memory.
+
+// integer overflow: 32 bits, large number will literally reset to 0, because the computer runs out of space in their binary memory.
+
+// source code >> compiler >> machine code
+
+// Video 2 stopped at 
+
+// 0's and 1's into assembly code.
+
+int main(void)
+{
+  string name = get_string("Name: ");
+  printf("hello, _____%s\n", name);
+}
+// like a madlib where the %s is.
+
+// preprocessing compiling assembling and linking all going on from source code to machine code.
+
+// 1. turning source into machine, is called a preprocessor. any time there's a line of code that starts with a #, special command that is replaced by the contents of the file.
+
+// # means grab that file, and then copy and paste it in current location.
+
+// 2. after preprocessing, then comes compiling into assembly code.
+// 3. and then assembly code turns into binary.
+
+// all those steps turn into compiling in modern day programming.
+
+// inside curly braces, you should indent code.
+
+#include <stdio.h>
+
+int main(void)
+{
+    printf("????\n");
+}
+// without \n, and hitting enter, code on 2 lines would only confuse the computer.
+// ? boxes in Mario
+
+// for (int i = 0; i < 4; i++)
+// {
+//   printf("?");
+// }
+// printf("\n");
+
+// if i=0; in for loop, you can't request -50, because it is less than 0.
+
+// control c stops a program from running, such as a recursive loop or a server.
+
+// to pester a user several times, at least once.
+// <= less than or equal left to right
+// >= greater than or equal left to right
+
+// 9:13
+// line 9, 13th character
+
+// you can declare a variable and then say I'll deal with it later
+
+// print out this many rows
+for (int i = 0; i < n; i++)
+{
+  // print out this many columns at each instance of i, in other words, type out this many iterations of j at EACH ITERATION of i.
+  for (int j = 0; j < n; j++)
+    {
+      printf("#\n");
+    }
+}
+// for loop inside of a for loop.
+// to make a square of bricks in mario.
+
+eprintf is like console.log for C.
+
+C has data types.
+
+// string info
+
+// name surrounded by boxes.
+// actually an abstraction of something lower level. of characters
+
