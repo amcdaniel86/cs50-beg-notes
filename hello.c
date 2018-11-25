@@ -195,3 +195,54 @@ C has data types.
 // name surrounded by boxes.
 // actually an abstraction of something lower level. of characters
 
+int main(void)
+{
+    string s = get_string("input: ");
+    printf("output: ");
+    for (int i = 0; i < strlen(s); i++)
+    //  7 doesn't reference the program correctly, need dynamic option.
+    {
+      printf("%c\n", s[i])
+    }
+    // character at a  time, suggests a loop.
+    the [i] prints the ith character of a the requested name.
+}
+
+typecasting - types of variables. casting - to convert from one to another.
+
+lower case letters start at 97. 'a'= 97
+
+// capitalization function in c
+couple includes lines, like declared variables
+
+int main(void)
+{
+      string  s = get_string("before: ");
+      printf("after: ");
+      for (int i = 0, n = strlen(s); i < n; i++)
+      {
+        if (s[i] >= 'a' && s[i] <= 'z')
+        {
+            printf("%c", s[i] - ('a' - 'A'));
+        }
+        else
+        {
+          printf("%c", s[i]);
+        }
+      }
+      printf("\n");
+}
+// this code says, if s[i] is lowercase between 'a' and 'z', then take it, s[i], and subtact ('a' - 'A') from it, in ascii, this would produce a lower number, which is the capital version of that letter, since ascii is formatted that way.
+
+datatype also a boolean in C.
+
+length of a string function - 
+1 billion bytes is 1 GB
+
+in C, a string with a number of characters with a \0 at the end.
+
+// an array: continuous set of memory, literally physically back to back to each other. maybe its int, int, string, string, student, student, student. multiple things back to back to back.
+
+int main(void): void means 0 arguments,  no input by default, have to prompt user with get_string, char etc.
+
+// segments of memory, segmentation fault: is can't touch memory that is not assigned to be used.
